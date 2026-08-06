@@ -232,6 +232,7 @@ function transportFilter(tp) {
 
 function filterTours() {
   const destName = DEST_MAP[state.dest] || '中國';
+  const tpList = transportFilter(state.transport);
   let list = TOURS.filter(t => {
     // 目的地篩選（country 欄位，將來東南亞擴充）
     if ((t.country || '中國') !== destName) return false;
