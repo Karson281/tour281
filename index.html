@@ -213,7 +213,7 @@ function togglePref(p, el) {
 }
 function syncButtons() {
   document.querySelectorAll('[data-dest]').forEach(b => b.classList.toggle('active', b.dataset.dest === state.dest));
-  document.querySelectorAll('[data-days]').forEach(b => b.classList.toggle('active', b.dataset.days === state.days));
+  document.querySelectorAll('[data-days]').forEach(b => b.classList.toggle('active', parseInt(b.dataset.days, 10) === state.days));
   document.querySelectorAll('[data-tp]').forEach(b => b.classList.toggle('active', b.dataset.tp === state.transport));
   document.querySelectorAll('[data-mon]').forEach(b => b.classList.toggle('active', b.dataset.mon === String(state.month)));
   document.querySelectorAll('[data-pref]').forEach(b => b.classList.toggle('active', state.prefs.has(b.dataset.pref)));
