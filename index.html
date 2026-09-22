@@ -267,21 +267,25 @@ function totalScore(t) {
 }
 function sortTours(list) {
   const p = state.prefs;
-  // 排序規則：無偏好 / 綜合（F）= 性價比總分降序（最高分喺頂）
-  // 揀咗偏好（A 價格 / B 五星純玩 / C 美食 / D 長輩）= 照偏好主排，總分做 tiebreaker；統計列會標明而家排序方式
-  if (p.has('A')) return [...list].sort((a, b) => a.price_hkd - b.price_hkd || totalScore(b) - totalScore(a));
-  if (p.has('B')) return [...list].sort((a, b) => (b.shopping_free - a.shopping_free) || (b.star_level - a.star_level) || totalScore(b) - totalScore(a));
-  if (p.has('C')) return [...list].sort((a, b) => b.scores.dining - a.scores.dining || totalScore(b) - totalScore(a));
-  if (p.has('D')) return [...list].sort((a, b) => b.elderly_friendly - a.elderly_friendly || totalScore(b) - totalScore(a));
-  return [...list].sort((a, b) => totalScore(b) - totalScore(a));  // 綜合 / 預設：總分降序
+  // ★ 最終顯示一律「性價比總分全局降序」（跨 agency 混合）——偏好只做同分 tie-break，唔會影響主次序
+  const byScore = (a, b) => totalScore(b) - totalScore(a);
+  const tiePref = {
+    A: (a, b) => a.price_hkd - b.price_hkd,
+    B: (a, b) => (b.shopping_free - a.shopping_free) || (b.star_level - a.star_level),
+    C: (a, b) => b.scores.dining - a.scores.dining,
+    D: (a, b) => b.elderly_friendly - a.elderly_friendly,
+  };
+  const pref = ['A', 'B', 'C', 'D'].find(k => p.has(k));
+  if (pref) return [...list].sort((a, b) => {
+    const d = byScore(a, b);
+    return d !== 0 ? d : tiePref[pref](a, b);
+  });
+  return [...list].sort(byScore);
 }
 function sortModeLabel() {
   const p = state.prefs;
-  if (p.has('A')) return '價格（低→高）';
-  if (p.has('B')) return '五星/純玩優先';
-  if (p.has('C')) return '美食優先';
-  if (p.has('D')) return '長輩友善優先';
-  return '性價比總分（高→低）';  // 預設 / 綜合
+  const has = ['A', 'B', 'C', 'D'].some(k => p.has(k));
+  return '性價比總分（高→低）' + (has ? ' · 偏好僅作同分比較' : '');
 }
 
 // ---------- 跨旅行社 CP 比較 ----------
