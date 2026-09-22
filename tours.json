@@ -33934,7 +33934,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5933",
@@ -33969,7 +33971,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5742",
@@ -34006,7 +34010,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5909",
@@ -34041,7 +34047,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5771",
@@ -34078,7 +34086,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5922",
@@ -34113,7 +34123,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5913",
@@ -34148,7 +34160,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5897",
@@ -34183,7 +34197,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5850",
@@ -34218,7 +34234,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-6014",
@@ -34257,7 +34275,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5817",
@@ -34294,7 +34314,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5732",
@@ -34331,7 +34353,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5887",
@@ -34368,7 +34392,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5766",
@@ -34405,7 +34431,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5878",
@@ -34440,7 +34468,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5898",
@@ -34475,7 +34505,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5793",
@@ -34512,7 +34544,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-6004",
@@ -34547,7 +34581,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5773",
@@ -34584,7 +34620,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5908",
@@ -34619,7 +34657,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5839",
@@ -34656,7 +34696,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5751",
@@ -34691,7 +34733,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5734",
@@ -34728,7 +34772,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5799",
@@ -34765,7 +34811,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5902",
@@ -34800,7 +34848,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5901",
@@ -34835,7 +34885,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5825",
@@ -34872,7 +34924,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5763",
@@ -34909,7 +34963,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5942",
@@ -34944,7 +35000,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5963",
@@ -34981,7 +35039,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5831",
@@ -35018,7 +35078,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-6002",
@@ -35053,7 +35115,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5792",
@@ -35090,7 +35154,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5739",
@@ -35127,7 +35193,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5937",
@@ -35162,7 +35230,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5934",
@@ -35197,7 +35267,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5923",
@@ -35232,7 +35304,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5810",
@@ -35269,7 +35343,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-6013",
@@ -35309,7 +35385,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5992",
@@ -35344,7 +35422,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5822",
@@ -35379,7 +35459,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5782",
@@ -35416,7 +35498,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5731",
@@ -35453,7 +35537,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5980",
@@ -35488,7 +35574,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5808",
@@ -35525,7 +35613,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-6001",
@@ -35560,7 +35650,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5818",
@@ -35595,7 +35687,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5795",
@@ -35632,7 +35726,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-6003",
@@ -35667,7 +35763,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5931",
@@ -35702,7 +35800,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5862",
@@ -35737,7 +35837,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5856",
@@ -35772,7 +35874,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5848",
@@ -35807,7 +35911,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5995",
@@ -35842,7 +35948,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5962",
@@ -35877,7 +35985,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5975",
@@ -35912,7 +36022,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5788",
@@ -35947,7 +36059,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5926",
@@ -35982,7 +36096,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5845",
@@ -36017,7 +36133,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5849",
@@ -36052,7 +36170,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5852",
@@ -36087,7 +36207,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5861",
@@ -36122,7 +36244,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5787",
@@ -36159,7 +36283,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5740",
@@ -36196,7 +36322,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5895",
@@ -36231,7 +36359,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5829",
@@ -36268,7 +36398,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5930",
@@ -36303,7 +36435,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5790",
@@ -36340,7 +36474,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5824",
@@ -36377,7 +36513,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5847",
@@ -36412,7 +36550,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5762",
@@ -36449,7 +36589,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5812",
@@ -36486,7 +36628,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5932",
@@ -36521,7 +36665,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5964",
@@ -36558,7 +36704,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5736",
@@ -36595,7 +36743,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5977",
@@ -36630,7 +36780,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5905",
@@ -36665,7 +36817,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5984",
@@ -36702,7 +36856,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5988",
@@ -36737,7 +36893,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5987",
@@ -36772,7 +36930,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5982",
@@ -36807,7 +36967,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5986",
@@ -36842,7 +37004,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5985",
@@ -36877,7 +37041,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5989",
@@ -36912,7 +37078,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5981",
@@ -36947,7 +37115,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   },
   {
    "id": "YH-5994",
@@ -36982,7 +37152,9 @@
    "source_file": "07-Tours/raw/yummyholiday-2026-09-22.json",
    "departure_city": "香港",
    "currency": "HKD",
-   "price_cny": null
+   "price_cny": null,
+   "guide_fee_per_day": null,
+   "guide_fee_source": null
   }
  ]
 }
