@@ -1,13 +1,13 @@
 {
  "_meta": {
   "schema_version": "0.4",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "maintainer": "Pi Mono",
   "source": "bigline API（大航/領華）",
   "note": "4 間旅行社：大航/領華(3-4天) + 美味假期(廣東/廣西短線) + 深圳國旅(CITS)；支援出發地(香港/廣州/深圳)；17 團長線污染已清除；2026-09-23 移除 2 間非每日更新旅行社全部記錄；2026-09-22 大航/領華 url 改為該團 deep link（tour-group/{id}）",
   "agencies": {
-   "大航假期": 208,
-   "領華旅遊": 347,
+   "大航假期": 207,
+   "領華旅遊": 348,
    "美味假期": 86,
    "深圳國旅": 290
   },
@@ -17,6 +17,43 @@
   "updated_by": "build_tours.py (bigline 大航/領華 re-scrape)"
  },
  "tours": [
+  {
+   "id": "DH-C36375A",
+   "agency": "大航假期",
+   "tour_code": "C36375A",
+   "name": "【聖誕節限定】重本包門票<廣州長隆國際大馬戲+廣州正佳極地海洋世界> 豪嘆【廣州銘門盛宴頂級豐盛海鮮自助餐】兩晚國際品牌《佛山南海利泰皇冠假日酒店》+《新豐新盟溫德姆花園酒店》任浸空中泡池 純玩3天",
+   "destination": "廣州",
+   "region": "廣東省",
+   "country": "中國",
+   "days": 3,
+   "transport": "巴士",
+   "months": [
+    12
+   ],
+   "departure_dates": [],
+   "price_hkd": 1809,
+   "guide_fee_included": false,
+   "shopping_free": true,
+   "star_level": 5,
+   "elderly_friendly": 4,
+   "scores": {
+    "price": 5.7,
+    "hotel": 9.0,
+    "attraction": 8.0,
+    "dining": 9.5,
+    "shopping_free": 10
+   },
+   "hotel": "佛山南海利泰皇冠假日酒店",
+   "highlights": [],
+   "meals": [
+    "聖誕節限定",
+    "廣州銘門盛宴頂級豐盛海鮮自助餐"
+   ],
+   "itinerary": [],
+   "url": "https://bigline.hk/tour-group/624635",
+   "updated": "2026-11-25",
+   "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
+  },
   {
    "id": "DH-CHCZ03IP",
    "agency": "大航假期",
@@ -51,7 +88,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624595",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -88,7 +125,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624585",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -125,7 +162,47 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624567",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
+   "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
+  },
+  {
+   "id": "DH-C43015",
+   "agency": "大航假期",
+   "tour_code": "C43015",
+   "name": "【春節限定】長隆夢幻之旅 |賞《廣州長隆國際大馬戲》|遊《清遠長隆森林王國》|探《珠海長隆飛船樂園》三園暢遊 重本安排珠海海鮮自助餐“天花板”《現撈生猛鮮活海鮮+現開金枕榴蓮自助餐》尊享入住三晚國際品牌酒店 純玩4天",
+   "destination": "廣州",
+   "region": "廣東省",
+   "country": "中國",
+   "days": 4,
+   "transport": "巴士",
+   "months": [
+    2
+   ],
+   "departure_dates": [
+    "2027-02-05",
+    "2027-02-06",
+    "2027-02-07"
+   ],
+   "price_hkd": 3009,
+   "guide_fee_included": false,
+   "shopping_free": true,
+   "star_level": 5,
+   "elderly_friendly": 4,
+   "scores": {
+    "price": 6.2,
+    "hotel": 9.0,
+    "attraction": 8.0,
+    "dining": 8.5,
+    "shopping_free": 10
+   },
+   "hotel": "廣州長隆國際大馬戲",
+   "highlights": [],
+   "meals": [
+    "春節限定"
+   ],
+   "itinerary": [],
+   "url": "https://bigline.hk/tour-group/624561",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -140,9 +217,12 @@
    "transport": "巴士",
    "months": [
     1,
-    11
+    11,
+    12
    ],
-   "departure_dates": [],
+   "departure_dates": [
+    "2026-12-28"
+   ],
    "price_hkd": 1609,
    "guide_fee_included": false,
    "shopping_free": true,
@@ -162,7 +242,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624552",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -200,7 +280,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624546",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -241,7 +321,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624510",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -281,7 +361,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624508",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -295,10 +375,32 @@
    "days": 3,
    "transport": "巴士",
    "months": [
+    1,
     3,
-    11
+    11,
+    12
    ],
-   "departure_dates": [],
+   "departure_dates": [
+    "2026-12-07",
+    "2026-12-09",
+    "2026-12-11",
+    "2026-12-13",
+    "2026-12-15",
+    "2026-12-17",
+    "2026-12-19",
+    "2026-12-21",
+    "2026-12-23",
+    "2026-12-24",
+    "2026-12-25",
+    "2026-12-27",
+    "2026-12-29",
+    "2026-12-31",
+    "2026-01-05",
+    "2026-01-12",
+    "2026-01-17",
+    "2026-01-21",
+    "2026-01-27"
+   ],
    "price_hkd": 1609,
    "guide_fee_included": false,
    "shopping_free": true,
@@ -319,7 +421,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624466",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -353,7 +455,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624443",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -390,7 +492,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624433",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -429,7 +531,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624416",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -491,7 +593,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624415",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -532,7 +634,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624414",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -572,7 +674,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624413",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -645,7 +747,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624404",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -691,7 +793,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624402",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -725,7 +827,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624398",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -765,7 +867,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624392",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -802,7 +904,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624383",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -828,7 +930,14 @@
     "2026-12-25",
     "2026-12-26",
     "2026-12-30",
-    "2026-12-31"
+    "2026-12-31",
+    "2026-01-11",
+    "2026-01-13",
+    "2026-01-17",
+    "2026-01-19",
+    "2026-01-21",
+    "2026-01-24",
+    "2026-01-26"
    ],
    "price_hkd": 1309,
    "guide_fee_included": false,
@@ -850,7 +959,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624372",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -903,7 +1012,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624368",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -938,7 +1047,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624336",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -999,7 +1108,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624322",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1019,7 +1128,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-09",
@@ -1067,7 +1175,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624321",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1086,7 +1194,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-17",
@@ -1094,6 +1201,7 @@
     "2026-12-19",
     "2026-12-23",
     "2026-12-24",
+    "2026-12-25",
     "2026-12-26",
     "2026-12-27",
     "2026-12-30",
@@ -1120,7 +1228,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624311",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1138,7 +1246,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-01",
@@ -1183,7 +1290,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624298",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1219,7 +1326,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624284",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1259,7 +1366,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624272",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1304,7 +1411,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624267",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1324,7 +1431,6 @@
    "departure_dates": [
     "2026-12-15",
     "2026-12-20",
-    "2026-12-21",
     "2026-12-24",
     "2026-12-26",
     "2026-12-30",
@@ -1354,7 +1460,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624254",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1375,7 +1481,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-02",
@@ -1420,7 +1525,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624248",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1434,6 +1539,7 @@
    "days": 3,
    "transport": "巴士",
    "months": [
+    1,
     11,
     12
    ],
@@ -1460,7 +1566,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624231",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1478,7 +1584,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29"
    ],
    "price_hkd": 709,
@@ -1502,7 +1607,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624217",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1538,7 +1643,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624198",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1578,7 +1683,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624187",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1614,7 +1719,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624180",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1664,7 +1769,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624165",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1707,7 +1812,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624157",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1727,7 +1832,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-30",
     "2026-12-01",
     "2026-12-05",
@@ -1770,7 +1874,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624155",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1809,7 +1913,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624152",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1847,7 +1951,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624146",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1885,7 +1989,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624144",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1927,7 +2031,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624130",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -1967,7 +2071,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624121",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2007,7 +2111,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624116",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2047,7 +2151,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624062",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2093,7 +2197,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624032",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2131,7 +2235,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/624012",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2169,7 +2273,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623992",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2189,7 +2293,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-12-01",
     "2026-12-05",
@@ -2235,7 +2338,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623936",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2271,7 +2374,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623908",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2308,7 +2411,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623900",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2353,7 +2456,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623882",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2388,7 +2491,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623873",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2422,7 +2525,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623849",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2440,8 +2543,6 @@
     12
    ],
    "departure_dates": [
-    "2026-12-23",
-    "2026-12-24",
     "2026-12-26",
     "2026-12-27",
     "2026-12-28",
@@ -2470,7 +2571,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623848",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2514,7 +2615,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623839",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2551,7 +2652,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623807",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2591,7 +2692,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623806",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2609,7 +2710,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-01",
@@ -2638,7 +2738,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623795",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2657,7 +2757,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-04",
@@ -2691,7 +2790,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623792",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2727,7 +2826,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623783",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2768,7 +2867,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623764",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2810,7 +2909,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623757",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2862,7 +2961,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623755",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2902,7 +3001,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623754",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2938,7 +3037,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623753",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -2975,7 +3074,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623752",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3013,7 +3112,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623750",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3030,8 +3129,6 @@
     12
    ],
    "departure_dates": [
-    "2026-12-24",
-    "2026-12-25",
     "2026-12-26"
    ],
    "price_hkd": 1809,
@@ -3054,7 +3151,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623738",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3094,7 +3191,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623727",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3134,7 +3231,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623719",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3174,7 +3271,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623582",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3196,7 +3293,6 @@
     "2026-12-08",
     "2026-12-10",
     "2026-12-11",
-    "2026-12-13",
     "2026-12-14"
    ],
    "price_hkd": 709,
@@ -3221,7 +3317,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623581",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3235,7 +3331,6 @@
    "days": 2,
    "transport": "巴士",
    "months": [
-    3,
     9,
     11,
     12
@@ -3243,17 +3338,10 @@
    "departure_dates": [
     "2026-11-30",
     "2026-12-04",
-    "2026-12-12",
-    "2026-12-16",
     "2026-12-17",
-    "2026-12-18",
     "2026-12-19",
-    "2026-12-20",
-    "2026-12-21",
     "2026-12-24",
     "2026-12-25",
-    "2026-12-26",
-    "2026-12-27",
     "2026-12-31"
    ],
    "price_hkd": 809,
@@ -3276,7 +3364,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623549",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3314,7 +3402,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623503",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3351,7 +3439,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623466",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3392,7 +3480,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623420",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3432,7 +3520,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623389",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3471,7 +3559,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623314",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3511,7 +3599,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623294",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3531,7 +3619,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-07",
@@ -3564,7 +3651,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623266",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3600,7 +3687,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623264",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3615,12 +3702,9 @@
    "transport": "巴士",
    "months": [
     3,
-    10,
-    11
+    10
    ],
-   "departure_dates": [
-    "2026-11-28"
-   ],
+   "departure_dates": [],
    "price_hkd": 1609,
    "guide_fee_included": false,
    "shopping_free": true,
@@ -3640,7 +3724,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/623167",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3689,7 +3773,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622925",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3739,7 +3823,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622921",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3777,44 +3861,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622904",
-   "updated": "2026-11-24",
-   "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
-  },
-  {
-   "id": "DH-C39075B",
-   "agency": "大航假期",
-   "tour_code": "C39075B",
-   "name": "【玩轉粵東粵北懶人包-第二集2.0】全港獨家 連住兩晚梅州五華熱礦泥溫泉度假村  廣東\"珍稀熱礦泥SPA” 無限次享受30多個天然真溫泉泡池 特別安排觀光車賞金秋盛宴《坪山梯田》 純玩3天",
-   "destination": "梅州",
-   "region": "廣東省",
-   "country": "中國",
-   "days": 3,
-   "transport": "巴士",
-   "months": [
-    9,
-    11
-   ],
-   "departure_dates": [],
-   "price_hkd": 1109,
-   "guide_fee_included": false,
-   "shopping_free": true,
-   "star_level": 0,
-   "elderly_friendly": 4,
-   "scores": {
-    "price": 7.2,
-    "hotel": 6.0,
-    "attraction": 8.0,
-    "dining": 8.5,
-    "shopping_free": 10
-   },
-   "hotel": "坪山梯田",
-   "highlights": [],
-   "meals": [
-    "玩轉粵東粵北懶人包-第二集2.0"
-   ],
-   "itinerary": [],
-   "url": "https://bigline.hk/tour-group/622849",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3832,7 +3879,6 @@
     12
    ],
    "departure_dates": [
-    "2026-12-11",
     "2026-12-13",
     "2026-12-14"
    ],
@@ -3858,7 +3904,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622842",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3896,6 +3942,7 @@
     "2026-12-31",
     "2026-01-08",
     "2026-01-09",
+    "2026-01-10",
     "2026-01-16",
     "2026-01-17",
     "2026-01-23",
@@ -3922,7 +3969,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622835",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -3941,15 +3988,16 @@
     12
    ],
    "departure_dates": [
+    "2026-12-03",
     "2026-12-17"
    ],
-   "price_hkd": 2409,
+   "price_hkd": 2209,
    "guide_fee_included": false,
    "shopping_free": true,
    "star_level": 0,
    "elderly_friendly": 4,
    "scores": {
-    "price": 4.3,
+    "price": 4.8,
     "hotel": 6.0,
     "attraction": 6.0,
     "dining": 8.5,
@@ -3962,7 +4010,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622775",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4014,7 +4062,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622537",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4034,7 +4082,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-05",
@@ -4071,7 +4118,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622433",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4109,7 +4156,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622432",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4128,7 +4175,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-04",
@@ -4165,7 +4211,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622360",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4184,7 +4230,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-01",
@@ -4231,7 +4276,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622340",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4250,7 +4295,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-05",
@@ -4283,7 +4327,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622336",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4318,7 +4362,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622330",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4357,7 +4401,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622326",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4409,7 +4453,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622320",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4428,7 +4472,6 @@
     11
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-01-04"
    ],
@@ -4451,7 +4494,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622305",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4490,7 +4533,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622259",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4542,7 +4585,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622248",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4593,7 +4636,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622212",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4613,7 +4656,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-04",
@@ -4648,7 +4690,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622208",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4692,7 +4734,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622200",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4729,7 +4771,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622199",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4769,7 +4811,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622197",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4806,7 +4848,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622187",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4848,7 +4890,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622182",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4868,7 +4910,9 @@
    "departure_dates": [
     "2026-12-04",
     "2026-12-05",
-    "2026-12-12"
+    "2026-12-12",
+    "2026-12-17",
+    "2026-12-22"
    ],
    "price_hkd": 809,
    "guide_fee_included": false,
@@ -4892,7 +4936,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622180",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4907,11 +4951,9 @@
    "transport": "高鐵",
    "months": [
     9,
-    11,
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-12-02",
     "2026-12-03",
     "2026-12-04",
@@ -4940,7 +4982,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622173",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -4980,7 +5022,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622167",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5025,7 +5067,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622162",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5064,7 +5106,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622157",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5101,47 +5143,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/622025",
-   "updated": "2026-11-24",
-   "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
-  },
-  {
-   "id": "DH-C33396",
-   "agency": "大航假期",
-   "tour_code": "C33396",
-   "name": "【星級廚房】重本安排·銘門盛宴頂級豐盛海鮮自助餐2.0【任食小青龍&波士頓龍蝦】+精緻雙人套餐【位上黑松露焗大明蝦+中山乳鴿】全港獨家《陽春DS溫泉度假酒店》+國際品牌《中山火炬高新區皇冠假日酒店》任浸“美人湯”珍稀溫泉 純玩3天",
-   "destination": "中山",
-   "region": "廣東省",
-   "country": "中國",
-   "days": 3,
-   "transport": "巴士",
-   "months": [
-    8,
-    12
-   ],
-   "departure_dates": [
-    "2026-12-25"
-   ],
-   "price_hkd": 2409,
-   "guide_fee_included": false,
-   "shopping_free": true,
-   "star_level": 5,
-   "elderly_friendly": 4,
-   "scores": {
-    "price": 4.3,
-    "hotel": 9.0,
-    "attraction": 8.0,
-    "dining": 9.5,
-    "shopping_free": 10
-   },
-   "hotel": "陽春DS溫泉度假酒店",
-   "highlights": [],
-   "meals": [
-    "任食小青龍&波士頓龍蝦",
-    "位上黑松露焗大明蝦+中山乳鴿"
-   ],
-   "itinerary": [],
-   "url": "https://bigline.hk/tour-group/622019",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5183,7 +5185,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/621993",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5221,7 +5223,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/621990",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5236,11 +5238,9 @@
    "transport": "巴士",
    "months": [
     9,
-    11,
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-12-02",
     "2026-12-03",
     "2026-12-06",
@@ -5281,7 +5281,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/621978",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5299,7 +5299,6 @@
     11
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29"
    ],
    "price_hkd": 709,
@@ -5322,7 +5321,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/621959",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5341,7 +5340,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-12-10"
    ],
    "price_hkd": 1609,
@@ -5363,7 +5361,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/621958",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5383,7 +5381,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-12-01",
     "2026-12-03",
@@ -5414,7 +5411,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/621955",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5453,7 +5450,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/621929",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5468,11 +5465,9 @@
    "transport": "巴士",
    "months": [
     9,
-    11,
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-12-02",
     "2026-12-04",
     "2026-12-06",
@@ -5502,7 +5497,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/621867",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5521,7 +5516,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-01",
@@ -5555,48 +5549,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/621864",
-   "updated": "2026-11-24",
-   "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
-  },
-  {
-   "id": "DH-C25315",
-   "agency": "大航假期",
-   "tour_code": "C25315",
-   "name": "【季節限定】金秋必打卡“萬畝金色海浪”<廣東第一田> 重本包<稻田復古綠皮火車乘坐遊覽+稻田咖啡下午茶> 滋味品牌【芝士焗生蠔宴】【任食五洞牛肉火鍋宴】保證入住瑰麗酒店集團旗下《台山新世界酒店》嘆酒店海鮮自助晚餐 純玩2天",
-   "destination": "台山",
-   "region": "廣東省",
-   "country": "中國",
-   "days": 2,
-   "transport": "巴士",
-   "months": [
-    10,
-    11
-   ],
-   "departure_dates": [
-    "2026-11-28"
-   ],
-   "price_hkd": 709,
-   "guide_fee_included": false,
-   "shopping_free": true,
-   "star_level": 0,
-   "elderly_friendly": 5,
-   "scores": {
-    "price": 7.2,
-    "hotel": 6.0,
-    "attraction": 7.0,
-    "dining": 8.5,
-    "shopping_free": 10
-   },
-   "hotel": "台山新世界酒店",
-   "highlights": [],
-   "meals": [
-    "季節限定",
-    "芝士焗生蠔宴",
-    "任食五洞牛肉火鍋宴"
-   ],
-   "itinerary": [],
-   "url": "https://bigline.hk/tour-group/621823",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5636,7 +5589,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/621793",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5674,7 +5627,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/621770",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5715,7 +5668,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/621750",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5752,7 +5705,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/22030",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5791,7 +5744,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/22018",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5844,7 +5797,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/22017",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5883,7 +5836,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21971",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5902,13 +5855,13 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-01",
     "2026-12-02",
     "2026-12-03",
     "2026-12-14",
+    "2026-12-15",
     "2026-12-17",
     "2026-12-18",
     "2026-12-20",
@@ -5939,7 +5892,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21967",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5979,7 +5932,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21895",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -5998,7 +5951,6 @@
     11
    ],
    "departure_dates": [
-    "2027-11-28",
     "2027-11-29",
     "2027-11-30"
    ],
@@ -6019,7 +5971,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21884",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -6040,6 +5992,7 @@
    "departure_dates": [
     "2026-11-29",
     "2026-11-30",
+    "2026-12-05",
     "2026-12-08",
     "2026-12-09",
     "2026-12-13",
@@ -6070,7 +6023,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21841",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -6113,7 +6066,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21686",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -6146,7 +6099,6 @@
     "2026-12-10",
     "2026-12-11",
     "2026-12-13",
-    "2026-12-14",
     "2026-12-15",
     "2026-12-16",
     "2026-12-18",
@@ -6198,7 +6150,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21654",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -6262,7 +6214,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21574",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -6281,7 +6233,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-30",
     "2026-12-08"
    ],
@@ -6304,7 +6255,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21545",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -6357,7 +6308,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21465",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -6372,11 +6323,9 @@
    "transport": "巴士",
    "months": [
     9,
-    11,
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-12-01",
     "2026-12-05"
    ],
@@ -6400,7 +6349,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21427",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -6419,7 +6368,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-04",
@@ -6431,7 +6379,6 @@
     "2026-12-18",
     "2026-12-19",
     "2026-12-24",
-    "2026-12-26",
     "2026-12-27",
     "2026-12-28"
    ],
@@ -6457,7 +6404,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21418",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -6496,6 +6443,7 @@
     "2026-01-02",
     "2026-01-03",
     "2026-01-04",
+    "2026-01-06",
     "2026-01-07",
     "2026-01-08",
     "2026-01-09",
@@ -6517,7 +6465,6 @@
     "2026-02-02",
     "2026-02-03",
     "2026-02-04",
-    "2026-02-11",
     "2026-02-12",
     "2026-02-13",
     "2026-02-18",
@@ -6547,7 +6494,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21392",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -6601,7 +6548,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21370",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -6645,7 +6592,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21300",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -6694,7 +6641,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21196",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -6732,7 +6679,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21088",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -6751,7 +6698,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-02",
@@ -6787,7 +6733,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21079",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -6827,7 +6773,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21067",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -6866,7 +6812,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/21019",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -6887,9 +6833,7 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-30",
-    "2026-12-02",
     "2026-12-08",
     "2026-12-10",
     "2026-12-13",
@@ -6922,7 +6866,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/20955",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -6961,7 +6905,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/20943",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7009,7 +6953,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/20907",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7060,7 +7004,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/20836",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7097,7 +7041,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/20796",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7135,7 +7079,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/20750",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7195,7 +7139,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/20732",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7234,7 +7178,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/20656",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7253,7 +7197,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-01",
@@ -7286,7 +7229,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/20627",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7306,7 +7249,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-12-05"
    ],
@@ -7332,7 +7274,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/20575",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7374,7 +7316,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/20564",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7393,7 +7335,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-12-05",
     "2026-12-17",
     "2026-12-18",
@@ -7424,7 +7365,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/20524",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7473,7 +7414,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/20441",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7513,7 +7454,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/20317",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7527,6 +7468,8 @@
    "days": 2,
    "transport": "巴士",
    "months": [
+    1,
+    2,
     3,
     10,
     11,
@@ -7537,22 +7480,36 @@
     "2026-12-04",
     "2026-12-06",
     "2026-12-07",
-    "2026-12-08",
     "2026-12-09",
     "2026-12-10",
+    "2026-12-11",
     "2026-12-12",
-    "2026-12-13",
     "2026-12-14",
     "2026-12-15",
+    "2026-12-16",
     "2026-12-17",
-    "2026-12-18",
     "2026-12-20",
     "2026-12-21",
     "2026-12-23",
     "2026-12-27",
-    "2026-12-28",
     "2026-12-29",
-    "2026-12-30"
+    "2026-12-30",
+    "2026-01-01",
+    "2026-01-02",
+    "2026-01-03",
+    "2026-01-07",
+    "2026-01-09",
+    "2026-01-10",
+    "2026-01-12",
+    "2026-01-14",
+    "2026-01-15",
+    "2026-01-16",
+    "2026-01-17",
+    "2026-01-23",
+    "2026-02-07",
+    "2026-02-08",
+    "2026-02-10",
+    "2026-02-13"
    ],
    "price_hkd": 809,
    "guide_fee_included": false,
@@ -7576,7 +7533,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/20289",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7594,7 +7551,6 @@
     12
    ],
    "departure_dates": [
-    "2026-12-01",
     "2026-12-06",
     "2026-12-08",
     "2026-12-09",
@@ -7610,7 +7566,6 @@
     "2026-12-24",
     "2026-12-26",
     "2026-12-27",
-    "2026-12-29",
     "2026-12-30"
    ],
    "price_hkd": 1409,
@@ -7632,7 +7587,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/20251",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7669,7 +7624,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/20164",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7690,10 +7645,8 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-30",
     "2026-12-01",
-    "2026-12-02",
     "2026-12-04",
     "2026-12-05",
     "2026-12-07",
@@ -7745,7 +7698,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/19989",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7763,7 +7716,6 @@
     11
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30"
    ],
@@ -7784,7 +7736,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/19852",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7806,20 +7758,25 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-12-03",
     "2026-12-05",
     "2026-12-06",
     "2026-12-07",
     "2026-12-19",
-    "2026-12-20",
     "2026-12-21",
     "2026-12-26",
     "2026-12-28",
     "2026-12-29",
     "2026-12-31",
-    "2026-01-17",
+    "2026-01-03",
+    "2026-01-05",
+    "2026-01-06",
+    "2026-01-11",
+    "2026-01-12",
+    "2026-01-13",
+    "2026-01-15",
+    "2026-01-18",
     "2026-01-19",
     "2026-01-21",
     "2026-01-23",
@@ -7848,7 +7805,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/19805",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7889,7 +7846,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/19665",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7928,7 +7885,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/19339",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -7965,7 +7922,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/19285",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8006,7 +7963,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/19045",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8026,7 +7983,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-28",
     "2025-11-29",
     "2025-11-30",
     "2025-12-04",
@@ -8059,7 +8015,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/18998",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8096,7 +8052,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/18696",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8134,7 +8090,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/18694",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8176,7 +8132,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/18617",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8214,7 +8170,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/18275",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8234,7 +8190,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-02",
@@ -8279,7 +8234,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/18203",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8296,9 +8251,7 @@
     9,
     11
    ],
-   "departure_dates": [
-    "2026-11-28"
-   ],
+   "departure_dates": [],
    "price_hkd": 1509,
    "guide_fee_included": false,
    "shopping_free": true,
@@ -8319,7 +8272,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/18201",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8370,7 +8323,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/17981",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8405,7 +8358,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/17956",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8440,7 +8393,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/17955",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8475,7 +8428,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/17954",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8495,13 +8448,11 @@
     12
    ],
    "departure_dates": [
-    "2025-11-28",
     "2025-11-29",
     "2025-11-30",
     "2025-12-24",
     "2025-12-25",
     "2025-12-26",
-    "2025-12-30",
     "2025-12-31"
    ],
    "price_hkd": 1209,
@@ -8523,7 +8474,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/17759",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8543,7 +8494,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-28",
     "2026-11-29",
     "2026-12-10",
     "2026-12-11",
@@ -8579,7 +8529,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/17675",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8619,7 +8569,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/17397",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8659,7 +8609,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/17270",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8679,13 +8629,22 @@
     12
    ],
    "departure_dates": [
-    "2025-11-28",
     "2025-11-29",
     "2025-11-30",
+    "2025-12-03",
+    "2025-12-04",
+    "2025-12-05",
     "2025-12-09",
+    "2025-12-10",
     "2025-12-11",
+    "2025-12-13",
+    "2025-12-14",
+    "2025-12-15",
     "2025-12-19",
+    "2025-12-20",
+    "2025-12-21",
     "2025-12-24",
+    "2025-12-27",
     "2025-12-28",
     "2025-12-29"
    ],
@@ -8708,7 +8667,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/16691",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8750,7 +8709,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/16666",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8766,11 +8725,9 @@
    "months": [
     1,
     7,
-    11,
     12
    ],
    "departure_dates": [
-    "2025-11-28",
     "2025-12-08",
     "2025-12-13",
     "2025-12-29",
@@ -8795,7 +8752,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/16540",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8811,11 +8768,9 @@
    "months": [
     3,
     10,
-    11,
     12
    ],
    "departure_dates": [
-    "2025-11-28",
     "2025-12-05",
     "2025-12-06",
     "2025-12-09",
@@ -8840,7 +8795,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/16437",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8877,7 +8832,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/16314",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8917,7 +8872,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/16249",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -8982,7 +8937,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/16246",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -9019,7 +8974,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/16158",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -9078,7 +9033,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/16058",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -9097,7 +9052,6 @@
     11
    ],
    "departure_dates": [
-    "2025-11-28",
     "2025-11-29",
     "2025-11-30"
    ],
@@ -9122,7 +9076,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/16045",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -9140,7 +9094,6 @@
     12
    ],
    "departure_dates": [
-    "2024-11-28",
     "2024-11-29",
     "2024-12-03",
     "2024-12-04",
@@ -9169,7 +9122,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/15979",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -9222,7 +9175,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/15963",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -9261,7 +9214,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/14624",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -9289,7 +9242,17 @@
     "2025-12-19",
     "2025-12-20",
     "2025-12-26",
-    "2025-12-27"
+    "2025-12-27",
+    "2025-01-08",
+    "2025-01-09",
+    "2025-01-15",
+    "2025-01-16",
+    "2025-01-22",
+    "2025-01-23",
+    "2025-01-24",
+    "2025-01-29",
+    "2025-01-30",
+    "2025-01-31"
    ],
    "price_hkd": 2209,
    "guide_fee_included": false,
@@ -9310,7 +9273,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/14100",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -9350,7 +9313,7 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/12206",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
   },
   {
@@ -9387,8 +9350,92 @@
    ],
    "itinerary": [],
    "url": "https://bigline.hk/tour-group/9040",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/dh-tour-guangdong.json"
+  },
+  {
+   "id": "LH-LD2628",
+   "agency": "領華旅遊",
+   "tour_code": "LD2628",
+   "name": "【歎溫泉】惠州龍門竹溪山景溫泉酒店 獨立泡池房 新派韓式自助烤肉 抵玩2天",
+   "destination": "惠州",
+   "region": "廣東省",
+   "country": "中國",
+   "days": 2,
+   "transport": "巴士",
+   "months": [
+    1,
+    12
+   ],
+   "departure_dates": [
+    "2026-12-15",
+    "2026-12-18",
+    "2026-12-21",
+    "2026-12-28",
+    "2026-12-30",
+    "2026-01-01",
+    "2026-01-12",
+    "2026-01-22",
+    "2026-01-24"
+   ],
+   "price_hkd": 149,
+   "guide_fee_included": false,
+   "shopping_free": false,
+   "star_level": 0,
+   "elderly_friendly": 4,
+   "scores": {
+    "price": 9.2,
+    "hotel": 6.0,
+    "attraction": 8.0,
+    "dining": 7.0,
+    "shopping_free": 3
+   },
+   "hotel": "",
+   "highlights": [],
+   "meals": [
+    "歎溫泉"
+   ],
+   "itinerary": [],
+   "url": "https://sshl.hk/tour-group/624621",
+   "updated": "2026-11-25",
+   "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
+  },
+  {
+   "id": "LH-LD3201B",
+   "agency": "領華旅遊",
+   "tour_code": "LD3201B",
+   "name": "東莞 【首十位提升行政大床房】 連住2晚 東莞君濠酒店 歡唱KTV任打麻將 酒店海鮮自助晚餐 賞濱灣花海 純玩3天",
+   "destination": "東莞",
+   "region": "廣東省",
+   "country": "中國",
+   "days": 3,
+   "transport": "巴士",
+   "months": [
+    1,
+    3
+   ],
+   "departure_dates": [],
+   "price_hkd": 209,
+   "guide_fee_included": false,
+   "shopping_free": true,
+   "star_level": 0,
+   "elderly_friendly": 4,
+   "scores": {
+    "price": 9.3,
+    "hotel": 6.0,
+    "attraction": 7.0,
+    "dining": 8.5,
+    "shopping_free": 10
+   },
+   "hotel": "",
+   "highlights": [],
+   "meals": [
+    "首十位提升行政大床房"
+   ],
+   "itinerary": [],
+   "url": "https://sshl.hk/tour-group/624615",
+   "updated": "2026-11-25",
+   "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
    "id": "LH-LG2282",
@@ -9425,7 +9472,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624607",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -9474,7 +9521,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624605",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -9512,7 +9559,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624601",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -9564,7 +9611,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624600",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -9602,7 +9649,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624593",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -9638,7 +9685,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624592",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -9673,7 +9720,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624588",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -9722,7 +9769,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624574",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -9768,7 +9815,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624573",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -9806,7 +9853,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624564",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -9854,7 +9901,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624544",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -9906,7 +9953,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624542",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -9923,7 +9970,6 @@
     12
    ],
    "departure_dates": [
-    "2026-12-04",
     "2026-12-05",
     "2026-12-07"
    ],
@@ -9944,7 +9990,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624534",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -9963,7 +10009,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-11-30",
@@ -9990,7 +10035,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624524",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10029,7 +10074,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624516",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10069,7 +10114,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624515",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10107,7 +10152,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624514",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10126,7 +10171,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-11-28",
     "2026-11-29",
     "2026-11-30",
@@ -10153,7 +10197,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624507",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10173,8 +10217,7 @@
    "departure_dates": [
     "2023-12-13",
     "2023-12-14",
-    "2023-12-15",
-    "2023-12-16"
+    "2023-12-15"
    ],
    "price_hkd": 409,
    "guide_fee_included": false,
@@ -10195,7 +10238,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624502",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10244,7 +10287,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624491",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10258,12 +10301,26 @@
    "days": 3,
    "transport": "巴士",
    "months": [
+    1,
     3,
     11,
     12
    ],
    "departure_dates": [
-    "2026-12-24"
+    "2026-12-03",
+    "2026-12-05",
+    "2026-12-08",
+    "2026-12-14",
+    "2026-12-22",
+    "2026-12-24",
+    "2026-12-26",
+    "2026-12-28",
+    "2026-01-02",
+    "2026-01-06",
+    "2026-01-14",
+    "2026-01-18",
+    "2026-01-19",
+    "2026-01-26"
    ],
    "price_hkd": 309,
    "guide_fee_included": false,
@@ -10282,7 +10339,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624479",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10321,7 +10378,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624478",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10372,7 +10429,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624477",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10424,7 +10481,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624472",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10460,7 +10517,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624461",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10476,11 +10533,9 @@
    "months": [
     1,
     2,
-    4,
-    12
+    4
    ],
    "departure_dates": [
-    "2026-12-12",
     "2026-01-11",
     "2026-01-21",
     "2026-02-22",
@@ -10505,7 +10560,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624442",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10549,7 +10604,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624441",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10585,7 +10640,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624429",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10629,7 +10684,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624425",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10668,7 +10723,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624421",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10688,7 +10743,6 @@
     12
    ],
    "departure_dates": [
-    "2023-11-27",
     "2023-11-28",
     "2023-11-29",
     "2023-12-07",
@@ -10719,7 +10773,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624418",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10769,7 +10823,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624417",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10805,7 +10859,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624408",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10842,7 +10896,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624390",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10881,43 +10935,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624386",
-   "updated": "2026-11-24",
-   "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
-  },
-  {
-   "id": "LH-LD3221",
-   "agency": "領華旅遊",
-   "tour_code": "LD3221",
-   "name": "【12.25朱咪咪開心聖誕夜+12.26蕭偉倫聖誕星音樂派對】連住兩晚 嘉輝會麗呈華廷酒店 海立方環遊城 純玩3天",
-   "destination": "中國",
-   "region": "廣東省",
-   "country": "中國",
-   "days": 3,
-   "transport": "巴士",
-   "months": [
-    12
-   ],
-   "departure_dates": [
-    "2026-12-25"
-   ],
-   "price_hkd": 1409,
-   "guide_fee_included": false,
-   "shopping_free": true,
-   "star_level": 0,
-   "elderly_friendly": 4,
-   "scores": {
-    "price": 6.6,
-    "hotel": 6.0,
-    "attraction": 6.0,
-    "dining": 7.0,
-    "shopping_free": 10
-   },
-   "hotel": "",
-   "highlights": [],
-   "meals": [],
-   "itinerary": [],
-   "url": "https://sshl.hk/tour-group/624361",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -10966,7 +10984,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624353",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11024,7 +11042,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624352",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11041,11 +11059,9 @@
     1,
     2,
     4,
-    11,
     12
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-12-10",
     "2026-12-13",
     "2026-12-24",
@@ -11074,7 +11090,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624305",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11112,7 +11128,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624300",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11168,7 +11184,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624296",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11188,7 +11204,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-12-16",
     "2025-12-18",
     "2025-12-21",
@@ -11217,7 +11232,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624289",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11253,7 +11268,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624277",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11274,7 +11289,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-11-30",
     "2026-12-02",
     "2026-12-05",
@@ -11314,7 +11328,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624260",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11363,7 +11377,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624249",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11378,11 +11392,9 @@
    "transport": "巴士",
    "months": [
     10,
-    11,
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-12-07",
     "2025-12-17",
     "2025-12-21"
@@ -11404,7 +11416,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624246",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11421,11 +11433,9 @@
     1,
     2,
     4,
-    11,
     12
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-12-18",
     "2026-12-20",
     "2026-12-24",
@@ -11452,7 +11462,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624243",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11469,11 +11479,9 @@
     1,
     2,
     5,
-    11,
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-12-08",
     "2025-12-12",
     "2025-12-13",
@@ -11503,7 +11511,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624239",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11519,11 +11527,9 @@
    "months": [
     1,
     6,
-    11,
     12
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-12-01",
     "2026-12-04",
     "2026-12-11",
@@ -11554,7 +11560,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624228",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11574,7 +11580,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-11-30",
     "2026-12-02",
     "2026-12-05",
@@ -11607,7 +11612,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624216",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11642,7 +11647,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624202",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11679,7 +11684,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624197",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11725,7 +11730,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624195",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11769,7 +11774,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624167",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11785,9 +11790,7 @@
    "months": [
     12
    ],
-   "departure_dates": [
-    "2026-12-25"
-   ],
+   "departure_dates": [],
    "price_hkd": 1409,
    "guide_fee_included": false,
    "shopping_free": true,
@@ -11807,7 +11810,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624164",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11828,6 +11831,7 @@
    "departure_dates": [
     "2026-12-04",
     "2026-12-06",
+    "2026-12-12",
     "2026-12-13",
     "2026-12-15",
     "2026-12-16",
@@ -11857,7 +11861,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624161",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11892,7 +11896,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624148",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -11928,43 +11932,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624141",
-   "updated": "2026-11-24",
-   "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
-  },
-  {
-   "id": "LH-LD3220",
-   "agency": "領華旅遊",
-   "tour_code": "LD3220",
-   "name": "【12.25朱咪咪開心聖誕夜】東莞嘉輝會麗呈華廷酒店 新君悅海鮮自助晚餐 重本包『錦繡中華大型民族舞蹈表演』 純玩3天",
-   "destination": "東莞",
-   "region": "廣東省",
-   "country": "中國",
-   "days": 3,
-   "transport": "巴士",
-   "months": [
-    12
-   ],
-   "departure_dates": [],
-   "price_hkd": 1109,
-   "guide_fee_included": false,
-   "shopping_free": true,
-   "star_level": 0,
-   "elderly_friendly": 4,
-   "scores": {
-    "price": 7.2,
-    "hotel": 6.0,
-    "attraction": 6.0,
-    "dining": 8.5,
-    "shopping_free": 10
-   },
-   "hotel": "",
-   "highlights": [],
-   "meals": [
-    "12.25朱咪咪開心聖誕夜"
-   ],
-   "itinerary": [],
-   "url": "https://sshl.hk/tour-group/624137",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12008,7 +11976,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624107",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12056,7 +12024,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624095",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12096,7 +12064,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624094",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12143,7 +12111,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624089",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12191,7 +12159,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624088",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12226,7 +12194,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624087",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12261,7 +12229,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624071",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12298,7 +12266,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624069",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12346,7 +12314,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624056",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12388,7 +12356,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624037",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12409,14 +12377,12 @@
     12
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-11-28",
     "2026-11-29",
     "2026-12-09",
     "2026-12-12",
     "2026-12-13",
     "2026-12-30",
-    "2026-01-09",
     "2026-01-16"
    ],
    "price_hkd": 209,
@@ -12436,7 +12402,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624003",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12485,7 +12451,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/624002",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12499,15 +12465,13 @@
    "days": 3,
    "transport": "巴士",
    "months": [
-    1,
     3,
     10,
     11
    ],
    "departure_dates": [
     "2026-11-29",
-    "2026-11-30",
-    "2026-01-24"
+    "2026-11-30"
    ],
    "price_hkd": 609,
    "guide_fee_included": false,
@@ -12526,7 +12490,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623997",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12573,7 +12537,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623987",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12633,7 +12597,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623966",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12668,7 +12632,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623954",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12716,7 +12680,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623938",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12736,7 +12700,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-30",
     "2025-12-02",
     "2025-12-05",
@@ -12774,7 +12737,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623922",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12809,7 +12772,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623919",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12829,7 +12792,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-11-28",
     "2026-11-29",
     "2026-11-30",
@@ -12869,7 +12831,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623918",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12906,7 +12868,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623917",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12925,7 +12887,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-11-28",
     "2026-11-30"
    ],
@@ -12948,7 +12909,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623914",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -12995,7 +12956,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623910",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13044,7 +13005,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623909",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13065,6 +13026,7 @@
    ],
    "departure_dates": [
     "2026-11-28",
+    "2026-12-08",
     "2026-12-13",
     "2026-12-15",
     "2026-12-16"
@@ -13086,7 +13048,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623905",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13104,7 +13066,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-11-30",
@@ -13132,7 +13093,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623902",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13174,7 +13135,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623893",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13210,7 +13171,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623889",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13231,8 +13192,6 @@
    ],
    "departure_dates": [
     "2026-12-03",
-    "2026-12-10",
-    "2026-12-17",
     "2026-12-20",
     "2026-12-21",
     "2026-12-23",
@@ -13261,7 +13220,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623880",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13298,7 +13257,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623846",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13312,10 +13271,12 @@
    "days": 2,
    "transport": "巴士",
    "months": [
+    3,
     10,
     12
    ],
    "departure_dates": [
+    "2026-12-07",
     "2026-12-12"
    ],
    "price_hkd": 409,
@@ -13335,7 +13296,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623843",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13376,7 +13337,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623841",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13416,7 +13377,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623838",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13469,7 +13430,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623830",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13513,7 +13474,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623814",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13553,7 +13514,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623773",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13597,7 +13558,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623769",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13641,7 +13602,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623760",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13682,7 +13643,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623759",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13732,7 +13693,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623741",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13772,7 +13733,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623733",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13816,7 +13777,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623732",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13858,7 +13819,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623729",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13902,7 +13863,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623721",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13950,7 +13911,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623589",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -13997,7 +13958,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623588",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14045,7 +14006,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623566",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14062,9 +14023,7 @@
     8,
     12
    ],
-   "departure_dates": [
-    "2025-12-24"
-   ],
+   "departure_dates": [],
    "price_hkd": 1309,
    "guide_fee_included": false,
    "shopping_free": true,
@@ -14084,7 +14043,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623519",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14120,7 +14079,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623498",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14156,7 +14115,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623412",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14192,7 +14151,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623350",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14228,7 +14187,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623320",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14277,7 +14236,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623291",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14316,7 +14275,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623280",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14352,7 +14311,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623273",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14397,7 +14356,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623222",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14444,7 +14403,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623216",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14483,7 +14442,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623212",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14522,7 +14481,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623184",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14539,12 +14498,9 @@
     1,
     2,
     10,
-    11,
     12
    ],
    "departure_dates": [
-    "2026-11-27",
-    "2026-11-28",
     "2026-12-02",
     "2026-12-05",
     "2026-12-06",
@@ -14581,7 +14537,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623164",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14616,7 +14572,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623142",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14635,7 +14591,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-12-02",
     "2025-12-03",
@@ -14665,7 +14620,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623069",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14683,7 +14638,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-11-30",
@@ -14714,7 +14668,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623067",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14750,7 +14704,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623029",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14790,7 +14744,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/623027",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14825,7 +14779,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622978",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14862,7 +14816,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622969",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14897,7 +14851,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622955",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14935,7 +14889,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622929",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -14955,7 +14909,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-30",
     "2025-12-01",
     "2025-12-04",
@@ -14987,7 +14940,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622923",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15032,7 +14985,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622913",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15070,7 +15023,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622912",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15089,7 +15042,6 @@
     12
    ],
    "departure_dates": [
-    "2024-11-27",
     "2024-11-30",
     "2024-12-01",
     "2024-12-04",
@@ -15120,7 +15072,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622905",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15173,7 +15125,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622840",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15224,7 +15176,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622833",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15238,7 +15190,6 @@
    "days": 1,
    "transport": "巴士",
    "months": [
-    2,
     7,
     11
    ],
@@ -15264,7 +15215,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622768",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15282,7 +15233,6 @@
     11
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-11-28"
    ],
    "price_hkd": 79,
@@ -15304,7 +15254,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622736",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15344,7 +15294,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622630",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15392,7 +15342,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622596",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15429,7 +15379,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622579",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15466,7 +15416,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622527",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15486,7 +15436,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-11-30",
     "2026-12-01",
     "2026-12-05",
@@ -15517,7 +15466,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622505",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15552,7 +15501,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622504",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15604,7 +15553,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622489",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15645,7 +15594,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622478",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15685,7 +15634,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622457",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15737,7 +15686,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622455",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15757,6 +15706,7 @@
     12
    ],
    "departure_dates": [
+    "2026-12-26",
     "2026-01-01",
     "2026-01-02",
     "2026-01-03",
@@ -15810,7 +15760,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622402",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15847,7 +15797,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622381",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15888,7 +15838,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622372",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15928,7 +15878,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622363",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -15948,7 +15898,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-12-01",
@@ -15989,7 +15938,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622350",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16039,7 +15988,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622346",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16058,9 +16007,7 @@
     12
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-11-29",
-    "2026-12-03",
     "2026-12-18"
    ],
    "price_hkd": 209,
@@ -16080,7 +16027,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622318",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16100,7 +16047,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-12-01",
@@ -16146,7 +16092,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622310",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16183,7 +16129,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622302",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16220,7 +16166,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622264",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16257,7 +16203,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622240",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16274,13 +16220,10 @@
     1,
     2,
     7,
-    11,
     12
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-12-03",
-    "2026-12-09",
     "2026-12-11",
     "2026-12-15",
     "2026-12-19",
@@ -16288,7 +16231,6 @@
     "2026-12-21",
     "2026-12-22",
     "2026-12-24",
-    "2026-12-29",
     "2026-01-06",
     "2026-02-20"
    ],
@@ -16311,7 +16253,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622216",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16348,7 +16290,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622204",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16368,7 +16310,6 @@
     12
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-11-30",
     "2026-12-02",
     "2026-12-05",
@@ -16399,7 +16340,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622143",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16417,7 +16358,6 @@
     11
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-11-30"
@@ -16439,7 +16379,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622071",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16457,7 +16397,6 @@
     11
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-30"
    ],
    "price_hkd": 49,
@@ -16477,7 +16416,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622067",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16514,7 +16453,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622053",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16531,11 +16470,13 @@
     1,
     2,
     10,
-    11
+    11,
+    12
    ],
    "departure_dates": [
     "2026-11-28",
     "2026-11-29",
+    "2026-12-20",
     "2026-01-01",
     "2026-01-02",
     "2026-01-03",
@@ -16586,7 +16527,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/622003",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16601,14 +16542,11 @@
    "transport": "巴士",
    "months": [
     1,
-    2,
     3,
     10
    ],
    "departure_dates": [
-    "2024-01-02",
-    "2024-01-22",
-    "2024-02-19"
+    "2024-01-22"
    ],
    "price_hkd": 309,
    "guide_fee_included": false,
@@ -16629,7 +16567,44 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/621989",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
+   "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
+  },
+  {
+   "id": "LH-LC3581",
+   "agency": "領華旅遊",
+   "tour_code": "LC3581",
+   "name": "【週末出發不升價】藏匿於山水畫之間的“巴厘島”連住2晚 韶關乳源藍山源嶺南東方溫泉酒店  世界過山瑤博物館 英九茶園 純玩3天",
+   "destination": "韶關",
+   "region": "廣東省",
+   "country": "中國",
+   "days": 3,
+   "transport": "巴士",
+   "months": [
+    11,
+    12
+   ],
+   "departure_dates": [],
+   "price_hkd": 909,
+   "guide_fee_included": false,
+   "shopping_free": true,
+   "star_level": 0,
+   "elderly_friendly": 4,
+   "scores": {
+    "price": 7.7,
+    "hotel": 6.0,
+    "attraction": 8.0,
+    "dining": 7.0,
+    "shopping_free": 10
+   },
+   "hotel": "",
+   "highlights": [],
+   "meals": [
+    "週末出發不升價"
+   ],
+   "itinerary": [],
+   "url": "https://sshl.hk/tour-group/621982",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16649,7 +16624,6 @@
     12
    ],
    "departure_dates": [
-    "2023-11-28",
     "2023-11-30",
     "2023-12-02",
     "2023-12-05",
@@ -16680,7 +16654,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/621872",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16722,7 +16696,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/621866",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16762,7 +16736,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/621857",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16809,7 +16783,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/621810",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16860,7 +16834,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/621748",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16881,7 +16855,6 @@
     12
    ],
    "departure_dates": [
-    "2024-11-27",
     "2024-11-29",
     "2024-12-15",
     "2024-12-25",
@@ -16910,7 +16883,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/621732",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -16947,7 +16920,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/621714",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17019,7 +16992,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/22012",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17054,7 +17027,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21994",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17094,7 +17067,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21980",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17131,7 +17104,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21977",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17152,7 +17125,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-12-01",
@@ -17189,7 +17161,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21964",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17229,7 +17201,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21950",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17266,7 +17238,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21904",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17303,7 +17275,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21903",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17344,7 +17316,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21890",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17395,7 +17367,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21875",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17432,7 +17404,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21867",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17450,7 +17422,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-12-01",
@@ -17490,7 +17461,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21865",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17511,6 +17482,7 @@
    ],
    "departure_dates": [
     "2024-12-23",
+    "2024-12-25",
     "2024-01-02",
     "2024-01-22",
     "2024-01-30",
@@ -17546,7 +17518,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21863",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17592,7 +17564,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21862",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17631,7 +17603,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21848",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17668,7 +17640,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21847",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17705,7 +17677,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21845",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17742,7 +17714,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21824",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17786,7 +17758,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21795",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17836,7 +17808,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21794",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17909,7 +17881,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21789",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17928,7 +17900,6 @@
     11
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-11-29"
    ],
    "price_hkd": 209,
@@ -17948,7 +17919,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21788",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -17990,7 +17961,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21787",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18010,7 +17981,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-12-01",
@@ -18050,7 +18020,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21737",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18070,7 +18040,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-12-01",
@@ -18110,7 +18079,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21735",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18129,7 +18098,6 @@
     12
    ],
    "departure_dates": [
-    "2023-11-27",
     "2023-11-28",
     "2023-11-29",
     "2023-12-01",
@@ -18169,7 +18137,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21734",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18189,7 +18157,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-12-01",
@@ -18230,7 +18197,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21733",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18278,7 +18245,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21692",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18297,7 +18264,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-29",
     "2025-12-06",
     "2025-12-09",
@@ -18322,7 +18288,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21691",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18345,7 +18311,6 @@
     "2026-12-01",
     "2026-12-07",
     "2026-12-15",
-    "2026-12-25",
     "2026-01-14",
     "2026-01-18",
     "2026-01-20",
@@ -18371,7 +18336,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21623",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18408,7 +18373,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21619",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18422,7 +18387,7 @@
    "days": 3,
    "transport": "巴士",
    "months": [
-    2,
+    1,
     6
    ],
    "departure_dates": [],
@@ -18445,7 +18410,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21584",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18491,7 +18456,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21583",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18528,7 +18493,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21556",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18568,7 +18533,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21540",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18588,10 +18553,8 @@
     12
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-11-28",
     "2026-11-29",
-    "2026-12-04",
     "2026-12-05",
     "2026-12-06",
     "2026-12-09",
@@ -18601,7 +18564,6 @@
     "2026-12-16",
     "2026-12-18",
     "2026-12-19",
-    "2026-12-20",
     "2026-12-22",
     "2026-12-29"
    ],
@@ -18624,7 +18586,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21527",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18661,7 +18623,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21458",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18680,7 +18642,6 @@
     11
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-11-29",
     "2026-11-30"
    ],
@@ -18703,7 +18664,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21384",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18776,7 +18737,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21319",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18814,7 +18775,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21314",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18856,7 +18817,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21306",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18906,7 +18867,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21262",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18944,7 +18905,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21148",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -18981,7 +18942,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/21126",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19019,7 +18980,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20949",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19062,7 +19023,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20921",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19109,7 +19070,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20870",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19160,7 +19121,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20869",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19233,7 +19194,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20827",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19279,7 +19240,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20812",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19319,7 +19280,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20802",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19336,7 +19297,9 @@
     8,
     12
    ],
-   "departure_dates": [],
+   "departure_dates": [
+    "2025-12-28"
+   ],
    "price_hkd": 709,
    "guide_fee_included": false,
    "shopping_free": true,
@@ -19356,7 +19319,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20751",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19372,14 +19335,13 @@
    "months": [
     1,
     4,
-    11,
     12
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-12-15",
     "2026-12-18",
     "2026-12-27",
+    "2026-12-31",
     "2026-01-22",
     "2026-01-24"
    ],
@@ -19402,7 +19364,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20741",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19444,7 +19406,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20698",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19460,11 +19422,9 @@
    "months": [
     1,
     2,
-    11,
     12
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-12-14",
     "2026-12-30",
     "2026-01-21",
@@ -19491,7 +19451,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20598",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19542,7 +19502,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20595",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19561,6 +19521,7 @@
     12
    ],
    "departure_dates": [
+    "2025-12-13",
     "2025-12-17",
     "2025-12-21"
    ],
@@ -19583,7 +19544,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20594",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19632,7 +19593,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20593",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19678,7 +19639,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20592",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19728,7 +19689,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20591",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19775,7 +19736,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20590",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19822,7 +19783,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20589",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19871,7 +19832,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20586",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19911,7 +19872,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20584",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19948,7 +19909,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20583",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -19989,7 +19950,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20582",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20030,7 +19991,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20520",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20077,7 +20038,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20518",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20116,7 +20077,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20511",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20132,11 +20093,9 @@
    "months": [
     2,
     6,
-    11,
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-12-27"
    ],
    "price_hkd": 709,
@@ -20158,7 +20117,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20500",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20207,7 +20166,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20493",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20226,7 +20185,6 @@
     11
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29"
    ],
@@ -20249,7 +20207,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20464",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20286,7 +20244,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20461",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20323,7 +20281,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20447",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20368,7 +20326,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20446",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20420,7 +20378,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20444",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20494,7 +20452,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20433",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20534,7 +20492,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20431",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20571,7 +20529,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20430",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20608,7 +20566,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20427",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20645,7 +20603,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20420",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20684,7 +20642,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20415",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20756,7 +20714,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20407",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20776,7 +20734,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-30",
     "2025-12-02",
     "2025-12-05",
@@ -20805,7 +20762,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20391",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20825,7 +20782,6 @@
     12
    ],
    "departure_dates": [
-    "2024-11-27",
     "2024-11-30",
     "2024-12-01",
     "2024-12-04",
@@ -20858,7 +20814,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20389",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20872,13 +20828,13 @@
    "days": 3,
    "transport": "巴士",
    "months": [
+    1,
     2,
     7,
     11,
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-30",
     "2025-12-01",
     "2025-12-04",
@@ -20889,7 +20845,8 @@
     "2025-12-21",
     "2025-12-25",
     "2025-12-28",
-    "2025-12-31"
+    "2025-12-31",
+    "2025-01-17"
    ],
    "price_hkd": 409,
    "guide_fee_included": false,
@@ -20910,7 +20867,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20388",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20961,7 +20918,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20377",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -20980,7 +20937,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-30",
     "2025-12-02",
     "2025-12-04",
@@ -21013,7 +20969,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20373",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21067,7 +21023,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20330",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21088,7 +21044,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-30",
     "2025-12-06",
     "2025-12-10",
@@ -21116,7 +21071,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20321",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21160,7 +21115,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20311",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21195,7 +21150,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20309",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21230,7 +21185,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/20030",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21267,7 +21222,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/19851",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21287,7 +21242,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-12-01",
@@ -21328,7 +21282,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/19849",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21348,7 +21302,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-12-01",
@@ -21389,7 +21342,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/19847",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21448,7 +21401,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/19846",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21468,7 +21421,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-12-01",
@@ -21509,7 +21461,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/19845",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21529,7 +21481,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-12-01",
@@ -21571,7 +21522,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/19844",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21591,7 +21542,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-12-01",
@@ -21632,7 +21582,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/19841",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21655,7 +21605,6 @@
     "2023-11-28",
     "2023-11-29",
     "2023-12-02",
-    "2023-12-03",
     "2023-12-04",
     "2023-12-05",
     "2023-12-06",
@@ -21692,7 +21641,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/19838",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21714,6 +21663,7 @@
    "departure_dates": [
     "2025-11-29",
     "2025-12-03",
+    "2025-12-05",
     "2025-12-08",
     "2025-12-30"
    ],
@@ -21736,7 +21686,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/19837",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21756,7 +21706,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-12-01",
@@ -21797,7 +21746,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/19836",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21817,7 +21766,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-12-01",
@@ -21856,7 +21804,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/19708",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21895,7 +21843,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/19647",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21911,11 +21859,9 @@
    "months": [
     1,
     2,
-    11,
     12
    ],
    "departure_dates": [
-    "2026-11-27",
     "2026-12-06",
     "2026-12-10",
     "2026-12-21",
@@ -21943,7 +21889,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/19587",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -21994,7 +21940,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/19544",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22034,7 +21980,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/19409",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22069,7 +22015,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/19379",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22107,7 +22053,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/19296",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22153,7 +22099,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/18830",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22190,7 +22136,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/18817",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22208,7 +22154,6 @@
     12
    ],
    "departure_dates": [
-    "2024-12-01",
     "2024-12-17",
     "2024-12-21",
     "2024-12-26",
@@ -22233,7 +22178,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/18676",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22252,7 +22197,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-30",
     "2025-12-02",
     "2025-12-06",
@@ -22286,7 +22230,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/18400",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22309,7 +22253,6 @@
     "2025-12-01",
     "2025-12-04",
     "2025-12-11",
-    "2025-12-14",
     "2025-01-01",
     "2025-01-02",
     "2025-01-03",
@@ -22360,7 +22303,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/18362",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22401,7 +22344,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/18324",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22453,7 +22396,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/18034",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22473,7 +22416,6 @@
     12
    ],
    "departure_dates": [
-    "2023-11-27",
     "2023-12-15",
     "2023-12-18",
     "2023-12-21",
@@ -22502,7 +22444,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/17985",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22516,6 +22458,7 @@
    "days": 3,
    "transport": "巴士",
    "months": [
+    1,
     2,
     10,
     12
@@ -22527,9 +22470,9 @@
     "2025-12-14",
     "2025-12-16",
     "2025-12-21",
-    "2025-12-27",
     "2025-12-28",
-    "2025-12-29"
+    "2025-12-29",
+    "2025-01-18"
    ],
    "price_hkd": 509,
    "guide_fee_included": false,
@@ -22550,7 +22493,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/17888",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22588,7 +22531,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/17808",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22628,7 +22571,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/17691",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22665,7 +22608,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/17538",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22686,7 +22629,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-12-01",
     "2025-12-04",
@@ -22731,7 +22673,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/17375",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22768,7 +22710,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/17246",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22805,7 +22747,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/17165",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22824,7 +22766,6 @@
     12
    ],
    "departure_dates": [
-    "2025-11-27",
     "2025-11-28",
     "2025-11-29",
     "2025-11-30"
@@ -22848,7 +22789,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/17096",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22867,8 +22808,7 @@
    ],
    "departure_dates": [
     "2026-12-05",
-    "2026-12-08",
-    "2026-12-12"
+    "2026-12-08"
    ],
    "price_hkd": 109,
    "guide_fee_included": false,
@@ -22887,7 +22827,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/17057",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22930,7 +22870,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/16966",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -22970,7 +22910,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/16959",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23017,7 +22957,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/16718",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23066,7 +23006,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/16342",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23112,7 +23052,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/16187",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23160,7 +23100,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/15787",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23179,7 +23119,6 @@
     12
    ],
    "departure_dates": [
-    "2024-11-27",
     "2024-11-28",
     "2024-11-29",
     "2024-12-01",
@@ -23220,7 +23159,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/15761",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23257,7 +23196,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/15623",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23296,7 +23235,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/15621",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23333,7 +23272,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/15601",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23373,7 +23312,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/15055",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23446,7 +23385,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/14994",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23483,7 +23422,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/14925",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23534,7 +23473,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/14719",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23569,7 +23508,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/14328",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23639,7 +23578,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/14246",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23657,7 +23596,6 @@
     11
    ],
    "departure_dates": [
-    "2024-11-27",
     "2024-11-28",
     "2024-11-29"
    ],
@@ -23680,7 +23618,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/13385",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23715,7 +23653,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/13335",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23759,7 +23697,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/13220",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23794,7 +23732,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/13210",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23868,7 +23806,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/12945",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23905,7 +23843,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/12936",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -23945,7 +23883,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/12855",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24018,7 +23956,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/12764",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24091,7 +24029,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/12653",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24106,9 +24044,12 @@
    "transport": "巴士",
    "months": [
     7,
+    11,
     12
    ],
-   "departure_dates": [],
+   "departure_dates": [
+    "2024-11-27"
+   ],
    "price_hkd": 609,
    "guide_fee_included": false,
    "shopping_free": true,
@@ -24128,7 +24069,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/12436",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24143,12 +24084,9 @@
    "transport": "巴士",
    "months": [
     8,
-    11,
     12
    ],
-   "departure_dates": [
-    "2023-11-27"
-   ],
+   "departure_dates": [],
    "price_hkd": 509,
    "guide_fee_included": false,
    "shopping_free": true,
@@ -24168,7 +24106,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/12382",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24203,7 +24141,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/12243",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24240,7 +24178,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/12217",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24283,7 +24221,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/11880",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24320,7 +24258,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/11644",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24371,7 +24309,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/11614",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24409,7 +24347,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/11419",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24444,7 +24382,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/11273",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24481,7 +24419,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/11099",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24518,7 +24456,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/11013",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24565,7 +24503,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/10984",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24639,7 +24577,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/10973",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24676,7 +24614,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/10949",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24711,7 +24649,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/10624",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24747,7 +24685,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/10557",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24790,7 +24728,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/10389",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24829,7 +24767,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/9517",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24871,7 +24809,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/9329",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24920,7 +24858,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/9277",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -24970,7 +24908,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/8837",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -25027,7 +24965,7 @@
    ],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/8732",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
@@ -25065,7 +25003,7 @@
    "meals": [],
    "itinerary": [],
    "url": "https://sshl.hk/tour-group/8042",
-   "updated": "2026-11-24",
+   "updated": "2026-11-25",
    "source_file": "09-實用成果/02-Tours/raw/bigline/lh-tour-guangdong.json"
   },
   {
